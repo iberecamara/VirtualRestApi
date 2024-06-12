@@ -1,0 +1,19 @@
+{
+  "id" : "69f6d14b-cbfe-450f-a286-e11d860e053b",
+  "request" : {
+    "url" : "/wiremock/blog",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+      "message" : "Welcome to the Wiremock standalone server for the Blog API virtualization."
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "69f6d14b-cbfe-450f-a286-e11d860e053b",
+  "persistent" : true,
+  "insertionIndex" : 0
+}

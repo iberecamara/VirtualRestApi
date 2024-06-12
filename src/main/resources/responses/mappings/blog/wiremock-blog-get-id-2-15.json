@@ -1,0 +1,22 @@
+{
+  "request": {
+    "urlPathTemplate": "/wiremock/blog/{id}",
+    "method" : "GET",
+    "pathParameters" : {
+      "id" : {
+        "matches" : "^([2-9]|[1][0-5])$"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "jsonBody" : {
+      "title" : "Blog post #{{request.path.[2]}}",
+      "message" : "Still rocking!"
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers": ["response-template"]
+  }
+}   

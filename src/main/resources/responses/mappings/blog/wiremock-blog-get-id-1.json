@@ -1,0 +1,20 @@
+{
+  "id" : "0d69183a-c374-4afa-8b51-ec3411fc03ab",  
+  "request" : {
+    "url" : "/wiremock/blog/1",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "jsonBody" : {
+      "title" : "My first blog post!",
+      "message" : "This is so cool!"
+    },
+    "headers" : {
+      "Content-Type" : "application/json"
+    }
+  },
+  "uuid" : "0d69183a-c374-4afa-8b51-ec3411fc03ab",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
